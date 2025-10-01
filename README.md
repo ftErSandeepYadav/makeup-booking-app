@@ -2,10 +2,6 @@
 
 This is a mini web app for a frontend developer intern assignment. It simulates the booking flow for a makeup artist platform, built with Next.js, TypeScript, and Tailwind CSS.
 
-## 🚀 Live Demo
-
-[Link to deployed application] (Deploy to Vercel/Netlify to add this)
-
 ## ✨ Features
 
 -   **Modern Landing Page**: A creative and engaging hero section with a video background.
@@ -18,7 +14,6 @@ This is a mini web app for a frontend developer intern assignment. It simulates 
 
 -   **Theme**: The design uses a sophisticated and elegant color palette (`primary: #D6A2E8`, `dark: #2C3E50`) to align with the makeup and beauty industry.
 -   **Typography**: A combination of `Playfair Display` (serif) for headings and `Poppins` (sans-serif) for body text was chosen to create a modern and high-end feel.
--   **Hero Section**: Instead of a static image, a dynamic video background was used to immediately capture user attention and convey the artistry and movement associated with makeup.
 -   **Categories Section**: An accordion/collapsible list was chosen over a simple grid to present a large number of categories in a clean, organized, and interactive way. It prevents overwhelming the user and encourages exploration.
 -   **UI/UX**: The flow is designed to be intuitive. Clear call-to-action buttons, auto-filled form fields, and a detailed confirmation page guide the user smoothly through the booking process.
 
