@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# GlamBook - Makeup Artist Booking Platform
 
-## Getting Started
+This is a mini web app for a frontend developer intern assignment. It simulates the booking flow for a makeup artist platform, built with Next.js, TypeScript, and Tailwind CSS.
 
-First, run the development server:
+## 🚀 Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+[Link to deployed application] (Deploy to Vercel/Netlify to add this)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+-   **Modern Landing Page**: A creative and engaging hero section with a video background.
+-   **Creative Category Display**: An interactive accordion-style list for browsing makeup categories and subcategories.
+-   **Artist Listings**: A clean, card-based layout to display artists for a selected category.
+-   **Seamless Booking Flow**: A simple multi-step process from selecting a service to booking an artist.
+-   **Responsive Design**: A mobile-first approach ensuring a great experience on all devices.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎨 Design Choices
 
-## Learn More
+-   **Theme**: The design uses a sophisticated and elegant color palette (`primary: #D6A2E8`, `dark: #2C3E50`) to align with the makeup and beauty industry.
+-   **Typography**: A combination of `Playfair Display` (serif) for headings and `Poppins` (sans-serif) for body text was chosen to create a modern and high-end feel.
+-   **Hero Section**: Instead of a static image, a dynamic video background was used to immediately capture user attention and convey the artistry and movement associated with makeup.
+-   **Categories Section**: An accordion/collapsible list was chosen over a simple grid to present a large number of categories in a clean, organized, and interactive way. It prevents overwhelming the user and encourages exploration.
+-   **UI/UX**: The flow is designed to be intuitive. Clear call-to-action buttons, auto-filled form fields, and a detailed confirmation page guide the user smoothly through the booking process.
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-   **Framework**: Next.js (App Router)
+-   **Language**: TypeScript
+-   **Styling**: Tailwind CSS
+-   **Icons**: React Icons
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ⚙️ Setup and Installation
 
-## Deploy on Vercel
+Follow these steps to run the application locally.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Prerequisites
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+-   Node.js (v18.x or later)
+-   npm, yarn, or pnpm
+
+### Steps
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/](https://github.com/)ftErSandeepYadav/makeup-booking-app.git
+    cd makeup-booking-app
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    # or
+    yarn install
+    # or
+    pnpm install
+    ```
+
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    # or
+    pnpm dev
+    ```
+
+4.  **Open the application:**
+    Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
